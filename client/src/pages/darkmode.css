@@ -1,0 +1,47 @@
+/* Dark Mode CSS */
+
+/* Apply dark mode to the ChannelList and Channel components */
+.chat-dark {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color */
+  }
+  
+  /* Styling for individual channels */
+  .chat-dark .channel-item {
+    background-color: #1a1a1a; /* Slightly darker channel background */
+    color: #ffffff; /* Light text color for channel names */
+    border: 1px solid #333; /* Border for channels */
+    padding: 8px; /* Adjust padding as needed */
+  }
+  
+  /* Styling for messages within the channel */
+  .chat-dark .message-item {
+    background-color: #1a1a1a; /* Darker message background */
+    color: #ffffff; /* Light text color for messages */
+    border: 1px solid #333; /* Border for messages */
+    padding: 8px; /* Adjust padding as needed */
+  }
+  
+  /* Styling for the Channel header */
+  .chat-dark .channel-header {
+    background-color: #121212; /* Dark background for the header */
+    color: #ffffff; /* Light text color for the header */
+    padding: 8px; /* Adjust padding as needed */
+  }
+  
+  /* Styling for the Message Input component */
+  .chat-dark .message-input {
+    background-color: #1a1a1a; /* Slightly darker input background */
+    color: #ffffff; /* Light text color for the input field */
+    border: 1px solid #333; /* Border for the input field */
+    padding: 8px; /* Adjust padding as needed */
+  }
+  
+  /* Styling for buttons or actions within the components */
+  .chat-dark .action-button {
+    background-color: #1a1a1a; /* Dark background for buttons */
+    color: #ffffff; /* Light text color for buttons */
+    border: 1px solid #333; /* Button border */
+    padding: 8px; /* Adjust padding as needed */
+  }
+  
